@@ -1,0 +1,72 @@
+
+.header{
+  border: 1px solid black;
+margin: 0px auto;
+  font-family: Helvetica, serif;
+background-image: url("ub.png");
+background-size: contain;
+background-repeat: no-repeat;
+border-radius: 5px;
+}
+
+.body{
+  border: 1px solid black;
+  height: 300px;
+  margin: 0px auto;
+  margin-top: 30px;
+  font-family: monospace;
+  background-color: honeydew;
+  text-shadow: 0px  1px #BFC9CA;
+border-radius: 5px;
+}
+
+.p {
+  text-align: center;
+  margin: 0px auto;
+
+}
+#container{
+  border: 1px solid black;
+  height: 100px;
+  margin: 0px auto;
+  margin-top: 30px;
+text-align: center;
+  min-width: 100px;
+  border-radius: 5px;
+}
+.Link1, .Link2, .Link3{
+height: 50px;
+width: 50px;
+vertical-align: top;
+display: inline-block;
+*display: inline;
+   zoom: 1
+text-align: justify;
+-ms-text-justify: distribute-all-lines;
+text-justify: distribute-all-lines;
+margin-top: 25px;
+margin-left: 15px;
+margin-right: 15px;
+text-align: center;
+}
+.stretch{
+  width: 100%;
+   display: inline-block;
+   font-size: 0;
+   line-height: 0
+}
+.Link1{
+  background-image: url("linkd.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.Link2{
+  background-image: url("git.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.Link3{
+  background-image: url("twitter.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
